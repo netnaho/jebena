@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -10,7 +13,6 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
- 
 }
 
 .title a:hover,
@@ -61,9 +63,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   min-width: 500px;
-  transition:
-    color 0.15s ease,
-    border-color 0.15s ease;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover,
@@ -88,7 +88,7 @@
   height: 1em;
 }
 .btn {
-  background-color: #087EEA;
+  background-color: #087eea;
   color: white;
   padding: 12px;
   margin: 10px 0;
