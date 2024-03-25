@@ -64,6 +64,7 @@ export default function Home() {
             />
             {cart.map((item) => (
               <div
+                key={item.id}
                 className={styles.title}
                 style={{ justifyContent: "space-between" }}
               >
